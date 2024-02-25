@@ -11,15 +11,15 @@ class ProductoController extends Controller
      */
     public function index()
     {
-        //
+        return view('productos.vista');
     }
 
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function crear()
     {
-        //
+        return view('productos.crear');
     }
 
     /**
@@ -41,7 +41,7 @@ class ProductoController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function editar($id)
     {
         //
     }
